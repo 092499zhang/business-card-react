@@ -1,121 +1,45 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
-import './App.css'
+import "./App.css"
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <section id="center">
-        <div className="hero">
-          <img src={heroImg} className="base" width="170" height="179" alt="" />
-          <img src={reactLogo} className="framework" alt="React logo" />
-          <img src={viteLogo} className="vite" alt="Vite logo" />
-        </div>
-        <div>
-          <h1>Get started</h1>
-          <p>
-            Edit <code>src/App.jsx</code> and save to test <code>HMR</code>
-          </p>
-        </div>
-        <button
-          type="button"
-          className="counter"
-          onClick={() => setCount((count) => count + 1)}
-        >
-          Count is {count}
-        </button>
-      </section>
+    <main>
+      <img src='' alt='my profile picture' />
+      <h1>Shu Zhang</h1>
+      <h2>Frontend Developer</h2>
+      <a href='https://shuzhang.website' target='_blank' rel='noopener noreferrer'>
+        shuzhang.website
+      </a>
+      <a href="mailto:sz2263@bath.ac.uk">
+        <img src='./src/assets/email.png' alt='email icon' />
+        <span>Email</span>
+        </a>
+      <a href="https://www.linkedin.com/in/shu-zhang-9b8b1a1b3/" target="_blank" rel="noopener noreferrer">
+        LinkedIn
+      </a>
+      <h3>About</h3>
+      <p>
+      I’m a Programme Administrator
+      with a growing background in frontend development and digital process
+      improvement. I currently work at the University of Bath, where I support
+      programme operations and create automation tools that help reduce
+      repetitive admin tasks. Outside of work, I’m developing my frontend skills
+      with HTML, CSS and JavaScript and building personal projects to strengthen
+      my practical experience. I enjoy turning ideas into simple, user-friendly
+      solutions and I’m especially interested in combining design, coding and
+      automation to improve everyday workflows.
+      </p>
+      <h3>Interests</h3>
+      <p>
+      Frontend Development • JavaScript • Process Automation • UX Design • Web
+      Accessibility • SharePoint • Problem Solving • Digital Tools • Learning
+      New Tech
+      </p>
+    </main>
+    <footer>
 
-      <div className="ticks"></div>
-
-      <section id="next-steps">
-        <div id="docs">
-          <svg className="icon" role="presentation" aria-hidden="true">
-            <use href="/icons.svg#documentation-icon"></use>
-          </svg>
-          <h2>Documentation</h2>
-          <p>Your questions, answered</p>
-          <ul>
-            <li>
-              <a href="https://vite.dev/" target="_blank">
-                <img className="logo" src={viteLogo} alt="" />
-                Explore Vite
-              </a>
-            </li>
-            <li>
-              <a href="https://react.dev/" target="_blank">
-                <img className="button-icon" src={reactLogo} alt="" />
-                Learn more
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div id="social">
-          <svg className="icon" role="presentation" aria-hidden="true">
-            <use href="/icons.svg#social-icon"></use>
-          </svg>
-          <h2>Connect with us</h2>
-          <p>Join the Vite community</p>
-          <ul>
-            <li>
-              <a href="https://github.com/vitejs/vite" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#github-icon"></use>
-                </svg>
-                GitHub
-              </a>
-            </li>
-            <li>
-              <a href="https://chat.vite.dev/" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#discord-icon"></use>
-                </svg>
-                Discord
-              </a>
-            </li>
-            <li>
-              <a href="https://x.com/vite_js" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#x-icon"></use>
-                </svg>
-                X.com
-              </a>
-            </li>
-            <li>
-              <a href="https://bsky.app/profile/vite.dev" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#bluesky-icon"></use>
-                </svg>
-                Bluesky
-              </a>
-            </li>
-          </ul>
-        </div>
-      </section>
-
-      <div className="ticks"></div>
-      <section id="spacer"></section>
-    </>
+    </footer>
+ </>
   )
 }
 
