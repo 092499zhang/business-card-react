@@ -9,8 +9,91 @@ body {
   font-family: Arial, sans-serif;
 }
 
+.hero {
+  width: 100%;
+}
+
+.hero img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 2rem 2rem 0 0;
+  height: 25rem;
+  object-position:top;
+}
+
+h1 {
+  font-size: 1.56rem;
+}
+
+h2 {
+  font-size: 0.8rem;
+  color: #F47D27;
+}
+
+.web-link {
+  font-size: 0.69rem;
+}
+
 main {
   display: flex;
   justify-content: center;
+  flex-direction: column;
   background: #ffffff;
+  border-radius: 2rem;
+  width: min(90%, 550px);
+  margin: 3rem auto;
+  height: 100%;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem 0;
+  gap: 1.2rem;
+}
+
+.button a {
+  text-decoration: none;
+  padding: 0.5rem 2.1rem;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  width: 8rem;
+}
+
+.button a img {
+  width: 1.5rem;
+  height: 1.5rem;
+  object-fit: contain;
+}
+
+.button .email {
+  border: #d4d4d4 solid 2px;
+  box-shadow: 0 2px 0px rgba(0, 0, 0, 0.08);
+  color: #1c1c1c;
+}
+
+.button .linkedin {
+  border: #297fe5 solid 2px;
+  background-color: #297fe5;
+  color: #ffffff;
+}
+
+h3 {
+  font-size: 1rem;
+  text-align: left;
+}
+
+p {
+  font-size: 0.625rem;
+  text-align: left;
+  color: #4A4E74;
+  margin-bottom: 1rem;
+}
+
+.content {
+  padding: 1.25rem;
 }
